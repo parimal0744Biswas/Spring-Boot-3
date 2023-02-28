@@ -2,14 +2,14 @@ package com.parimal;
 
 public class GameRunner
 {
-	MarioGame game;
+	private GamingConsole game;
 
 	public GameRunner()
 	{
 
 	}
 
-	public GameRunner(MarioGame game)
+	public GameRunner(GamingConsole game)
 	{
 		this.game = game;
 	}

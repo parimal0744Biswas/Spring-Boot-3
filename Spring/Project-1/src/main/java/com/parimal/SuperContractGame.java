@@ -1,6 +1,6 @@
 package com.parimal;
 
-public class SuperContractGame
+public class SuperContractGame implements GamingConsole
 {
 
 	public void up()
