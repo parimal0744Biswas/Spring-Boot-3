@@ -1,11 +1,11 @@
-package com.parimal.impliment2;
+package com.parimal.XImportant;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("com.parimal.impliment2")
+@ComponentScan("com.parimal.XImportant")
 public class AppLauncherX
 {
 	public static void main(String[] args)
