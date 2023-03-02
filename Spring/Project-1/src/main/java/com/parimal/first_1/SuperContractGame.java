@@ -1,4 +1,4 @@
-package com.parimal;
+package com.parimal.first_1;
 
 public class SuperContractGame implements GamingConsole
 {
