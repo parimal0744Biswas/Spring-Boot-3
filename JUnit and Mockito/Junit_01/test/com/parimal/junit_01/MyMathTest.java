@@ -6,20 +6,20 @@ import org.junit.jupiter.api.Test;
 
 class MyMathTest
 {
+	private MyMath math = new MyMath();
 
 	@Test
-	void test()
+	void calculateSum_ThreeMemberArray()
 	{
-		int[] num =
-		{ 1, 2, 3 };
+		assertEquals(6, math.calculateSum(new int[]
+		{ 1, 2, 3 }));
+	}
 
-		MyMath math = new MyMath();
-		int result = math.calculateSum(num);
-		System.out.println(result);
-		// fail("Not yet implemented");
-
-		int expectedResult = 5;
-		assertEquals(expectedResult, result);
+	@Test
+	void calculateSum_ZeroLengthArray()
+	{
+		assertEquals(0, math.calculateSum(new int[]
+		{}));
 	}
 
 }
